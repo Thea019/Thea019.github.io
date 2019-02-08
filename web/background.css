@@ -1,0 +1,31 @@
+body{
+    background:linear-gradient(to right,lightblue,red);
+    text-align:center;
+   
+}
+h1{
+    text-align: center;
+    margin-top: 25%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+.arrow {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 10px 10px 0px;
+    transform: rotate(-225deg);
+    transition: border-width 150ms ease-in-out;
+    margin-left: 37px;
+    margin-top: -54px;
+    position: fixed;
+    top: 81px;
+    left: 8px;
+  }
+  .arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }

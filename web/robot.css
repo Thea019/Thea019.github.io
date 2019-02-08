@@ -1,0 +1,243 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(255, 242, 168);
+}
+h1 {
+    font-family: 'Acme', sans-serif;
+    size: 
+}
+
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("header.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+.robots{
+    width: 390px ;
+    height:700px ;
+    display: flex;
+   
+}
+.android{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+.hcontainer{
+    width: 353px;
+    height:190px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.upper_body{
+    height: 210px;
+    width: 390px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+
+    
+}
+.lower_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 120px;
+    
+}
+.torso{
+    background-color: rgba(175, 26, 26, 0.89);
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    height: 210px;
+    width: 240px;
+   
+   
+}
+.torso:hover{
+    transition: transform 1s;
+    transform: scale(1.5);
+}
+
+.left_arm{
+    border-radius: 40px;
+    background-color: rgb(255, 208, 0);
+    height: 120px;
+    width: 50px;
+    
+
+}
+.left_arm:hover{
+    transform: rotate(-90deg) scale(2) translateY(-50%) translateX(50%);
+    transition: all 1s;
+   
+
+}
+
+.right_arm{
+    border-radius: 40px;
+    background-color: rgb(255, 208, 0);
+    height: 120px;
+    width: 50px;
+   
+
+}
+.right_arm:hover{
+    transform: rotate(90deg) scale(2) translateY(-50%) translateX(50%);
+    transition: all 1s;
+    
+   
+
+}
+
+.left_leg{
+    height: 100px;
+    width: 50px;
+    background-color:rgb(255, 208, 0);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+
+}
+.left_leg:hover{
+    transition: transform 1s;
+    transform: translate(-30px, 30px) rotate(90deg);
+}
+.right_leg{
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 208, 0);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.right_leg:hover{
+    transition: transform 1s;
+    transform: translate(30px, 30px) rotate(-90deg);
+}
+.head{
+    width: 240px;
+    height: 190px;
+    background-color:  rgba(175, 26, 26, 0.89);
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.head:hover{
+    transform: rotate(1080deg) scale(1.5);
+    transition: transform 1s;
+}
+.eyes{
+    height: 50px;
+    width:150px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 130px;
+   
+}
+.left_eye{
+    background-color:white;
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+    
+   
+    
+
+   
+}
+.right_eye{
+    background-color:white;
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+
+}
+.arrow {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 10px 10px 0px;
+    transform: rotate(-225deg);
+    transition: border-width 150ms ease-in-out;
+    margin-left: 37px;
+    margin-top: -54px;
+    position: fixed;
+    top: 81px;
+    left: 8px;
+  }
+  
+  .arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
+
+  
